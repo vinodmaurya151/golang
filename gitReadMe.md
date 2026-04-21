@@ -1,0 +1,57 @@
+1. Initialize Git (if not already done)
+    git init // Translation: "Hey Git, start watching this folder"
+
+
+2. Add your files to staging
+    # Add specific file
+    git add filename.txt
+
+    # Add all files(Translation: "Hey Git, look at ALL files in this folder")
+    git add .
+
+3. Commit your changes(Translation: "Take a photo/savepoint of all these files. Label this photo 'first commit'")
+    git commit -m "Your commit message"  
+
+4. Connect to remote repository
+    # Add remote origin (replace with your repo URL)(Translation: "Hey Git, there's a cloud storage location at this address. Give it the nickname 'origin'")
+    git remote add origin https://github.com/username/repository.git 
+
+    # If you already have a remote, check it
+    git remote -v
+
+5. Push to GitHub/GitLab/Bitbucket(Translation: "Send my 'main' storyline to the cloud location called 'origin'")
+    # First push (set upstream)
+    git push -u origin main
+
+    # Or if using master branch
+    git push -u origin master
+
+    # Subsequent pushes
+    git push
+
+
+
+
+Complete Example:
+# Step-by-step workflow
+cd your-project-folder
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/your-repo.git
+git branch -M main  # Rename branch to main
+git push -u origin main
+
+
+
+Quickest solution:
+
+Just run this to remove the nested git and proceed:
+bash
+
+rmdir /s /q VM_21_04_2026\.git
+git add .
+git commit -m "Initial commit"
+git remote add origin <your-repo-url>
+git push -u origin main
+
