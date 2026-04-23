@@ -55,3 +55,21 @@ git commit -m "Initial commit"
 git remote add origin <your-repo-url>
 git push -u origin main
 
+
+
+#### Start Fresh ####
+# Initialize Git
+git init
+
+# Add and commit
+git add main.go
+git commit -m "first commit"
+
+# Check branch name
+git branch
+# It will show "* master"
+
+# Create new repo on GitHub called "go-demo"
+# Then push
+git remote add origin https://github.com/vinodmaurya151/go-demo.git
+git push -u origin master
