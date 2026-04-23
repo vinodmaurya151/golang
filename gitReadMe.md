@@ -85,3 +85,7 @@ Step 5: git commit -m "1_print commit"
 Step 6: git branch -M main
 Step 7: git remote add origin https://github.com/vinodmaurya151/golang.git
 Step 8: git push -u origin main
+
+If again, want to push some file after doing some changes then again do:
+Step 1: git add .
+Step 1: git commit -m "Added git push steps"
