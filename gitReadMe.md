@@ -73,3 +73,15 @@ git branch
 # Then push
 git remote add origin https://github.com/vinodmaurya151/go-demo.git
 git push -u origin master
+
+
+
+###
+Step 1: Create a new repository from git website
+Step 2: Go to main folder(Go->1_print), Go is the main folder
+Step 3: git init
+Step 4: git add .
+Step 5: git commit -m "1_print commit"
+Step 6: git branch -M main
+Step 7: git remote add origin https://github.com/vinodmaurya151/golang.git
+Step 8: git push -u origin main
