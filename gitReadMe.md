@@ -88,4 +88,5 @@ Step 8: git push -u origin main
 
 If again, want to push some file after doing some changes then again do:
 Step 1: git add .
-Step 1: git commit -m "Added git push steps"
+Step 2: git commit -m "Added git push steps"
+Step 3: git push
